@@ -1,0 +1,17 @@
+{
+	"name": "threejs",
+	"version": "1.0.0",
+	"main": "index.js",
+	"license": "MIT",
+	"scripts": {
+		"dev": "parcel public/index.html",
+		"build": "parcel build public/index.html"
+	},
+	"dependencies": {
+		"parcel-bundler": "^1.12.5",
+		"three": "^0.141.0"
+	},
+	"devDependencies": {
+		"sass": "^1.52.1"
+	}
+}
